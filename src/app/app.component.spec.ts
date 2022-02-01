@@ -30,6 +30,6 @@ describe('AppComponent', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('ejemplos-angular-tesring-library-v2 app is running!');
+    expect(compiled.querySelector('span')?.textContent).toContain('ejemplos-angular-tesring-library-v2 app is running!');
   });
 });
